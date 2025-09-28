@@ -1,0 +1,13 @@
+{
+  "name": "bookmark-manager",
+  "version": "1.0.0",
+  "description": "A Chrome extension built with TypeScript that displays all bookmark folders in a convenient side panel for better bookmark management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

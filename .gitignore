@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules/
+
+# Build output directories
+dist/
+build/
+
+# TypeScript build info files
+*.tsbuildinfo
+
+# Package lock files (optional, depending on your workflow)
+package-lock.json
+
+# Logs
+*.log
+
+# IDE and editor directories and files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Operating system files
+.DS_Store
+Thumbs.db

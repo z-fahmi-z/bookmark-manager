@@ -1,0 +1,26 @@
+
+{
+  "manifest_version": 3,
+  "name": "Bookmark Folder Manager",
+  "version": "1.0.0",
+  "description": "Display and manage bookmarked folders in a convenient side panel",
+  "permissions": [
+    "bookmarks",
+    "sidePanel"
+  ],
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "Open Bookmark Manager"
+  },
+  "icons": {
+    "16": "dist/icons/icon16.png",
+    "32": "dist/icons/icon32.png",
+    "48": "dist/icons/icon48.png",
+    "128": "dist/icons/icon128.png"
+  }
+}
